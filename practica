@@ -1,1 +1,21 @@
+# Crear y cambiar a primera rama
+git checkout -b Diego
+echo "Contenido de rama Diego" > archivo1.txt
+git add .
+git commit -m "Commit en rama Diego"
+git push origin Diego
+
+# Segunda rama
+git checkout -b Ubeda
+echo "Contenido de rama Ubeda" > archivo2.txt
+git add .
+git commit -m "Commit en rama Ubeda"
+git push origin Ubeda
+
+# Tercera rama
+git checkout -b Paisan
+echo "Contenido de rama Paisan" > archivo3.txt
+git add .
+git commit -m "Commit en rama Paisan"
+git push origin Paisan
 
